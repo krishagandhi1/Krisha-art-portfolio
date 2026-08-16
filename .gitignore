@@ -1,0 +1,15 @@
+# Keep master files and originals out of the repo — they are large and
+# should never be served publicly.
+originals/
+*.psd
+*.clip
+*.procreate
+*.kra
+*.xcf
+*.tif
+*.tiff
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
