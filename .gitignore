@@ -9,6 +9,15 @@ originals/
 *.tif
 *.tiff
 
+# Raw camera exports. The site only serves processed piece-NN.jpg files;
+# phone originals are large and still carry EXIF GPS coordinates.
+IMG_*.jpg
+IMG_*.jpeg
+IMG_*.JPG
+IMG_*.JPEG
+images/**/*.jpeg
+images/**/*.JPEG
+
 # OS noise
 Thumbs.db
 Desktop.ini
